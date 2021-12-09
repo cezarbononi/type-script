@@ -1,5 +1,3 @@
-import { Negociacao } from "./models/negociacao.js";
-
-const negociacao = new Negociacao(new Date(), 10, 100)
-console.log(negociacao)
-negociacao.quantidade = 10000;
+import { Negociacao } from "./models/negociacao";
+const negociacao = new Negociacao(new Date());
+console.log(negociacao.volume);
